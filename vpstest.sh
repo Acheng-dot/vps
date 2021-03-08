@@ -54,7 +54,7 @@ vps_zbench(){
 }
 
 vps_testrace(){
-	wget -N --no-check-certificate https://raw.githubusercontent.com/nanqinlang-script/testrace/master/testrace.sh && bash testrace.sh
+	wget -N --no-check-certificate wget https://raw.githubusercontent.com/nanqinlang-script/testrace/master/testrace.sh && bash testrace.sh
 }
 vps_LemonBenchIntl(){
         curl -fsL https://ilemonra.in/LemonBenchIntl | bash -s fast
